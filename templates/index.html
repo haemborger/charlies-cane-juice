@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Charlie's Cane Juice</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================
+     NAVIGATION
+========================================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="brand">
+
+            <img
+                src="{{ url_for('static', filename='images/charlies_logo.png') }}"
+                alt="Charlie's Cane Juice Logo"
+                class="brand-logo-image"
+            >
+
+            <div class="brand-name">
+
+                Charlie's
+
+                <small>
+                    Cane Juice
+                </small>
+
+            </div>
+
+        </a>
+
+
+        <nav class="navigation">
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#specialties">
+                Specialties
+            </a>
+
+            <a href="#menu">
+                Menu
+            </a>
+
+            <a href="#order">
+                Order
+            </a>
+
+        </nav>
+
+
+        <a
+            href="#order"
+            class="order-button"
+        >
+            ORDER NOW
+        </a>
+
+    </div>
+
+</header>
+
+
+
+<main id="home">
+
+
+<!-- =========================================
+     HERO
+========================================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="eyebrow">
+            CHARLIE'S CANE JUICE
+        </div>
+
+
+        <h1>
+
+            TOP-NOTCH
+
+            <span>
+                SUGARCANE
+            </span>
+
+            JUICES &
+
+            SMOOTHIES
+
+        </h1>
+
+
+        <p class="hero-description">
+
+            Freshly pressed sugarcane juices,
+            refreshing smoothies, and good food.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a
+                href="#menu"
+                class="primary-button"
+            >
+                VIEW MENU
+            </a>
+
+
+            <a
+                href="#order"
+                class="secondary-button"
+            >
+                ORDER NOW
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     SPECIALTIES
+========================================= -->
+
+<section
+    class="section"
+    id="specialties"
+>
+
+    <div class="section-heading">
+
+        <div class="eyebrow">
+            WHAT WE SERVE
+        </div>
+
+        <h2>
+            OUR SPECIALTIES
+        </h2>
+
+        <div class="heading-line"></div>
+
+    </div>
+
+
+    <div class="specialty-grid">
+
+
+        <div class="specialty-card featured">
+
+            <div class="specialty-number">
+                01
+            </div>
+
+            <div class="specialty-icon">
+                🌱
+            </div>
+
+            <h3>
+                SUGARCANE JUICES
+            </h3>
+
+            <p>
+                Freshly pressed sugarcane juice
+                made to order and served cold.
+            </p>
+
+        </div>
+
+
+        <div class="specialty-card">
+
+            <div class="specialty-number">
+                02
+            </div>
+
+            <div class="specialty-icon">
+                🥤
+            </div>
+
+            <h3>
+                SMOOTHIES
+            </h3>
+
+            <p>
+                Refreshing smoothies made with
+                delicious fruits and ingredients.
+            </p>
+
+        </div>
+
+
+        <div class="specialty-card">
+
+            <div class="specialty-number">
+                03
+            </div>
+
+            <div class="specialty-icon">
+                🧀
+            </div>
+
+            <h3>
+                GOOD FOOD
+            </h3>
+
+            <p>
+                Hotdogs, grilled cheese, and
+                other food to enjoy with your drink.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     BRAND INTRODUCTION
+========================================= -->
+
+<section class="section brand-section">
+
+    <div class="brand-intro">
+
+
+        <div class="brand-intro-text">
+
+            <div class="eyebrow">
+                WHY CHARLIE'S?
+            </div>
+
+
+            <h2>
+
+                FRESH.
+
+                <span>
+                    SIMPLE.
+                </span>
+
+                CHARLIE'S.
+
+            </h2>
+
+
+            <p>
+
+                Fresh sugarcane juice,
+                refreshing drinks, and good food
+                made for every kind of craving.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="brand-values">
+
+
+            <div class="brand-value">
+
+                <div class="brand-value-number">
+                    01
+                </div>
+
+                <div>
+
+                    <h3>
+                        FRESHLY PRESSED
+                    </h3>
+
+                    <p>
+                        Sugarcane juice prepared fresh
+                        for every order.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="brand-value">
+
+                <div class="brand-value-number">
+                    02
+                </div>
+
+                <div>
+
+                    <h3>
+                        REFRESHING
+                    </h3>
+
+                    <p>
+                        Cold drinks made to keep
+                        you refreshed.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="brand-value">
+
+                <div class="brand-value-number">
+                    03
+                </div>
+
+                <div>
+
+                    <h3>
+                        MADE WITH CARE
+                    </h3>
+
+                    <p>
+                        Every sip and bite served
+                        with care.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     MENU
+========================================= -->
+
+<section
+    class="section menu-section"
+    id="menu"
+>
+
+    <div class="section-heading">
+
+        <div class="eyebrow">
+            FRESH FROM THE CANE
+        </div>
+
+        <h2>
+            OUR MENU
+        </h2>
+
+        <div class="heading-line"></div>
+
+    </div>
+
+
+    <div class="menu-image-container">
+
+        <img
+            src="{{ url_for('static', filename='images/menu.jpg') }}"
+            alt="Charlie's Cane Juice Menu"
+            class="menu-image"
+        >
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     CALL TO ACTION
+========================================= -->
+
+<section class="cta-section">
+
+    <div class="eyebrow">
+        CHARLIE'S CANE JUICE
+    </div>
+
+
+    <h2>
+        KEEPIN' IT REAL.
+    </h2>
+
+
+    <a
+        href="#order"
+        class="primary-button light"
+    >
+        ORDER NOW
+    </a>
+
+</section>
+
+
+
+<!-- =========================================
+     ORDER
+========================================= -->
+
+<section
+    class="section order-section"
+    id="order"
+>
+
+    <div class="section-heading">
+
+        <div class="eyebrow">
+            READY TO REFRESH?
+        </div>
+
+        <h2>
+            ORDER WITH US
+        </h2>
+
+        <div class="heading-line"></div>
+
+    </div>
+
+
+
+    <div class="order-container">
+
+
+        <div class="order-message">
+
+            <div class="order-icon">
+                🥤
+            </div>
+
+
+            <h3>
+                CRAVING CHARLIE'S?
+            </h3>
+
+
+            <p>
+
+                Send us a message through our
+                Facebook page to place your order
+                or ask about today's available drinks
+                and food.
+
+            </p>
+
+
+            <a
+                href="https://www.facebook.com/profile.php?id=61553683124806"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="primary-button"
+            >
+                MESSAGE US ON FACEBOOK
+            </a>
+
+        </div>
+
+
+
+        <div class="order-info">
+
+
+            <a
+                href="https://www.google.com/maps/place/Charlie's+Sugarcane+Juice+Bar+Angeles/@15.1338073,120.5893609,17z/data=!3m1!4b1!4m6!3m5!1s0x3396f3bf61b1b0b1:0xe999cc6ba56e001!8m2!3d15.1338073!4d120.5919358!16s%2Fg%2F11yghrx3mm?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="clickable-pickup"
+            >
+
+                <div class="order-info-item">
+
+                    <span>
+                        📍
+                    </span>
+
+
+                    <div>
+
+                        <strong>
+                            PICK UP AT
+                        </strong>
+
+
+                        <p>
+                            Gloan's Annex Bldg.
+                            Lakandula St. Sto. Rosario,
+                            Angeles City, Philippines, 2009
+                        </p>
+
+
+                        <small>
+                            GET DIRECTIONS →
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </a>
+
+
+
+            <div class="order-info-item">
+
+                <span>
+                    🕒
+                </span>
+
+
+                <div>
+
+                    <strong>
+                        STORE HOURS
+                    </strong>
+
+
+                    <p>
+                        Monday – Saturday
+                        <br>
+                        11:00 AM – 8:00 PM
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="order-info-item">
+
+                <span>
+                    💬
+                </span>
+
+
+                <div>
+
+                    <strong>
+                        ORDER THROUGH
+                    </strong>
+
+
+                    <p>
+                        Charlie's Cane Juice
+                        Facebook Page
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+</main>
+
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+
+        <div class="footer-brand">
+
+            <h3>
+                Charlie's
+            </h3>
+
+
+            <p>
+                Top-notch sugarcane juices,
+                smoothies, and good food.
+            </p>
+
+        </div>
+
+
+
+        <div class="footer-links">
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#specialties">
+                Specialties
+            </a>
+
+            <a href="#menu">
+                Menu
+            </a>
+
+            <a href="#order">
+                Order
+            </a>
+
+        </div>
+
+
+
+        <div class="footer-copy">
+
+            © 2026 Charlie's Cane Juice
+
+        </div>
+
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
